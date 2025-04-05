@@ -114,9 +114,10 @@
             font-size: 28px;
             font-weight: 700;
             background: var(--gradient-1);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            color: transparent;
             transition: transform 0.3s ease;
         }
         
@@ -204,9 +205,10 @@
             line-height: 1.2;
             margin-bottom: 20px;
             background: var(--gradient-1);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            color: transparent;
         }
         
         .hero p {
@@ -307,9 +309,10 @@
             text-align: center;
             position: relative;
             background: var(--gradient-1);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            color: transparent;
         }
         
         .section-title::after {
@@ -368,9 +371,10 @@
             font-size: 50px;
             margin-bottom: 25px;
             background: var(--gradient-1);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            color: transparent;
             transition: transform 0.5s ease;
         }
         
@@ -472,9 +476,10 @@
             font-size: 2rem;
             font-weight: 700;
             background: var(--gradient-1);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            color: transparent;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
@@ -932,7 +937,7 @@
                     <li><a href="#features">Features</a></li>
                     <li><a href="#testimonials">Reviews</a></li>
                     <li class="cart-icon">
-                        <a href="#cart">🛒</a>
+                        <a href="https://discord.gg/AWAfxPc6y6">🛒</a>
                         <span class="cart-count">0</span>
                     </li>
                 </ul>
@@ -946,7 +951,7 @@
         <div class="blob blob-2"></div>
         <div class="container hero-container">
             <div class="hero-content">
-                <h1 class="animate__animated animate__fadeInUp">Cool Breeze with a Nice Flavor</h1>
+                <h1 class="animate__animated animate__fadeInUp">Cool Breeze with a Flavor Twist</h1>
                 <p class="animate__animated animate__fadeInUp animate__delay-1s">Experience the revolutionary mini fan that cools you down while diffusing your favorite drink aroma. Perfect for your desk, bedroom, or anywhere you need a refreshing breeze.</p>
                 <a href="#products" class="btn animate__animated animate__fadeInUp animate__delay-2s">Shop Now</a>
             </div>
@@ -973,8 +978,8 @@
                 </div>
                 <div class="feature-card animate__animated animate__fadeInUp animate__delay-2s">
                     <div class="feature-icon">🌈</div>
-                    <h3>Cheap</h3>
-                    <p>25% Discount Making it Affordable While Still Maintaining High Quality.</p>
+                    <h3>25% OFF for summer</h3>
+                    <p>25% Off to keep it affordable while maintaining the good quality.</p>
                 </div>
                 <div class="feature-card animate__animated animate__fadeInUp animate__delay-3s">
                     <div class="feature-icon">🚚</div>
@@ -999,6 +1004,12 @@
                     <p class="product-description">The revolutionary aroma-diffusing mini fan with ice/drink compartment. Perfect for your desk or bedside table. Experience cooling with your favorite scent in one sleek device.</p>
                     <div class="product-price">$59.99 <span class="original-price">$79.99</span></div>
                     <div class="product-rating">★★★★★ (128)</div>
+                    <div class="product-colors">
+                        <div class="color-option color-blue active"></div>
+                        <div class="color-option color-pink"></div>
+                        <div class="color-option color-purple"></div>
+                        <div class="color-option color-yellow"></div>
+                    </div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -1080,6 +1091,11 @@
                 <div class="footer-column">
                     <h3>Support</h3>
                     <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">User Guide</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -1181,7 +1197,7 @@
                     const productPrice = productCard.querySelector('.product-price').textContent.split(' ')[0];
                     
                     // Add animation
-                    this.innerHTML = 'Added! ✓ go to your cart (ts pmo🙏👽)';
+                    this.innerHTML = 'Added! ✓';
                     this.style.background = 'var(--gradient-2)';
                     
                     setTimeout(() => {
